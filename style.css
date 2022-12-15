@@ -10,7 +10,7 @@ body{
 #backgroundTrack img{
     display: flex;
     border: solid black 2px;
-    margin:5px;
+    margin: 5px;
     width: 195px;
 }
 
@@ -59,15 +59,15 @@ body{
     left: 630px;
 }
 #PreviewContainer.background01 #Granted{
-    top: 230px;
+    top: 250px;
     left: 140px;
 }
 #PreviewContainer.background01 #Name{
-    top: 280px;
+    top: 290px;
     left: 140px;
 }
 #PreviewContainer.background01 #Class{
-    top: 350px;
+    top: 360px;
     left: 140px;
 }
 #PreviewContainer.background01 #hr01{

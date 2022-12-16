@@ -37,7 +37,25 @@ function importCSV(){
 }
 
 document.querySelector('#fileInput').addEventListener('change', function(e) {
-    
+    var file = document.getElementById("fileInput").files[0];
+if (file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "UTF-8");
+    reader.onload = function (evt) {
+        console.log(evt.target.result);
+        let data = evt.target.result.split(",");
+        console.log(data);
+        document.getElementById("Award").innerHTML = data[0];
+        document.getElementById("quarter").innerHTML = 'Quarter ' + data[1];
+        document.getElementById("year").innerHTML = data[2];
+        document.getElementById("Name").innerHTML = data[3];
+        document.getElementById("Class").innerHTML = data[4];
+        
+    }
+    reader.onerror = function (evt) {
+        console.log("error reading file");
+    }
+}
 });
 
 // Used to export the Award

@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>ECTS Award Gen</title>
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <div id="HTU" onclick="instructions()" class="header">How To Use</div>
-        <div id="import" onclick="importCSV()" class="header">Import CSV File<input type="file" id="fileInput" style="display:none" accept=".csv"></div>
-        <div id="export" onclick="exportAward()" class="header">Export Award</div>
-    </header>
-    <div style="display: flex;">
-        <div id="backgroundTrack">
-            <img class="template" src="./backgrounds/Background01.png" alt="background01" draggable="false">
-            <img class="template" src="./backgrounds/Background02.png" alt="background02" draggable="false">
-        </div>
-        <div id="PreviewContainer" class="background01">
-            <div id="ECTS" class="color01">Erie County Technical School</div>
-            <div id="Award" class="color02">Award Name Will Go Here</div>
-            <div id="quarter" class="color01">Quarter x</div>
-            <div id="year" class="color01">xxxx-xx</div>
-            <div id="Granted" class="color01">Is Granted To</div>
-            <div id="Name" class="color02">Student Name</div>
-            <div id="Class" class="color01">Program Name</div>
-            <div id="hr01"></div>
-            <div id="hr02"></div>
-            <div id="instructer" class="color01 small">Instructer</div>
-            <div id="date" class="color01 small">Date</div>
+    <div id="border">
+        <header id="fileHandlers">
+            <div id="HTU" onclick="instructions()" class="header">How To Use</div>
+            <div id="import" onclick="importCSV()" class="header">Import CSV File<input type="file" id="fileInput" style="display:none" accept=".csv"></div>
+            <div id="export" onclick="exportAward()" class="header">Export Award</div>
+        </header>
+        <div style="display: flex;">
+            <div id="backgroundTrack">
+                <img class="template" src="./backgrounds/Background01.png" alt="background01" draggable="false">
+                <img class="template" src="./backgrounds/Background02.png" alt="background02" draggable="false">
+            </div>
+        
+            <div id="PreviewContainer" class="background01">
+                <div id="ECTS" class="color01">Erie County Technical School</div>
+                <div id="Award" class="color02">Award Name Will Go Here</div>
+                <div id="quarter" class="color01">Quarter x</div>
+                <div id="year" class="color01">xxxx-xx</div>
+                <div id="Granted" class="color01">Is Granted To</div>
+                <div id="Name" class="color02">Student Name</div>
+                <div id="Class" class="color01">Program Name</div>
+                <div id="hr01"></div>
+                <div id="hr02"></div>
+                <div id="instructer" class="color01 small">Instructer</div>
+                <div id="date" class="color01 small">Date</div>
+            </div>
         </div>
     </div>
 </body>

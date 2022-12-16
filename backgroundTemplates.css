@@ -1,0 +1,157 @@
+/* === Background01 Template === */
+
+#PreviewContainer.background01{
+    background-image: url('./backgrounds/Background01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1500px;
+    height: 800px;
+    position: relative;
+    display: flex;
+}
+#PreviewContainer.background01 .color01{
+    color: #A6A6A6;
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 0;
+}
+#PreviewContainer.background01 .color02{
+    color: #54A021;
+    font-size: 5em;
+    position: absolute;
+    bottom: 0;
+}
+#PreviewContainer.background01  .small{
+    font-size: 1em;
+}
+#PreviewContainer.background01  #ECTS{
+    top: 15px;
+    left: 250px;
+}
+#PreviewContainer.background01  #Award{
+    top: 60px;
+    left: 200px;
+}
+#PreviewContainer.background01 #quarter{
+    top: 135px;
+    left: 335px;
+}
+#PreviewContainer.background01 #year{
+    top: 135px;
+    left: 630px;
+}
+#PreviewContainer.background01 #Granted{
+    top: 250px;
+    left: 140px;
+}
+#PreviewContainer.background01 #Name{
+    top: 290px;
+    left: 140px;
+}
+#PreviewContainer.background01 #Class{
+    top: 360px;
+    left: 140px;
+}
+#PreviewContainer.background01 #hr01{
+    position: absolute;
+    width: 300px;
+    border-top: #a6a6a682 solid;
+    top: 650px;
+    left: 150px;
+}
+#PreviewContainer.background01 #hr02{
+    position: absolute;
+    width: 300px;
+    border-top: #a6a6a682 solid;
+    top: 650px;
+    left: 600px;
+}
+#PreviewContainer.background01 #instructer{
+    top: 660px;
+    left: 150px;
+}
+#PreviewContainer.background01 #date{
+    top: 660px;
+    left: 600px;
+}
+
+/* === Background02 Template === */
+
+#PreviewContainer.background02{
+    background-image: url('./backgrounds/Background02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1500px;
+    height: 800px;
+    position: relative;
+    display: flex;
+}
+#PreviewContainer.background02 .color01{
+    color: #000000;
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 0;
+}
+#PreviewContainer.background02 .color02{
+    color: #BC1C1C;
+    font-size: 5em;
+    position: absolute;
+    bottom: 0;
+}
+#PreviewContainer.background02  .small{
+    font-size: 1em;
+}
+#PreviewContainer.background02  #ECTS{
+    top: 15px;
+    left: 600px;
+}
+#PreviewContainer.background02  #Award{
+    top: 60px;
+    left: 530px;
+}
+#PreviewContainer.background02 #quarter{
+    top: 135px;
+    left: 700px;
+}
+#PreviewContainer.background02 #year{
+    top: 135px;
+    left: 1000px;
+}
+#PreviewContainer.background02 #Granted{
+    top: 230px;
+    left: 530px;
+}
+#PreviewContainer.background02 #Name{
+    top: 280px;
+    left: 530px;
+}
+#PreviewContainer.background02 #Class{
+    top: 350px;
+    left: 530px;
+}
+#PreviewContainer.background02 #hr01{
+    position: absolute;
+    width: 300px;
+    border-top: #00000082 solid;
+    top: 650px;
+    left: 700px;
+}
+#PreviewContainer.background02 #hr02{
+    position: absolute;
+    width: 300px;
+    border-top: #00000082 solid;
+    top: 650px;
+    left: 1150px;
+}
+#PreviewContainer.background02 #instructer{
+    top: 660px;
+    left: 700px;
+}
+#PreviewContainer.background02 #date{
+    top: 660px;
+    left: 1150px;
+}
+
+/* === Background03 Template === */

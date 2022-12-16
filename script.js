@@ -9,3 +9,38 @@ document.querySelectorAll('.template').forEach((e, i) => {
         console.log(background + ' has just been selected');
     })
 });
+
+// The following is hard Coded
+// We want to now make it to open up a file explorer
+// fetch('test.csv')
+//     .then(response => response.text())
+//     .then(mycsv => {
+//         console.log(mycsv);
+//         let data = mycsv.split(",");
+//         console.log(data);
+//         document.getElementById("Award").innerHTML = data[0];
+//         document.getElementById("quarter").innerHTML = 'Quarter ' + data[1];
+//         document.getElementById("year").innerHTML = data[2];
+//         document.getElementById("Name").innerHTML = data[3];
+//         document.getElementById("Class").innerHTML = data[4];
+//     });
+
+// Brings User to the How to Use Page
+function instructions(){
+    alert('HTU btn Clicked');
+}
+
+// Used to import a CSV File
+function importCSV(){
+    //alert('Import Btn CLicked');
+    document.getElementById("fileInput").click()
+}
+
+document.querySelector('#fileInput').addEventListener('change', function(e) {
+    
+});
+
+// Used to export the Award
+function exportAward(){
+    alert('Export btn Clicked');
+}

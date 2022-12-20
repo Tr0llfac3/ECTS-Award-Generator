@@ -60,5 +60,5 @@ if (file) {
 
 // Used to export the Award
 function exportAward(){
-    alert('Export btn Clicked');
+    print();
 }

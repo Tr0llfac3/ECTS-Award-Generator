@@ -46,6 +46,7 @@ header{
 @media print {
     @page {
         margin: 0;
+        size: 1500px 850px;
     }
     body{
         align-items: center;
@@ -61,10 +62,7 @@ header{
         border: none;
     }
     #PreviewContainer{
-
         padding: 0;
-        max-width: 100%;
-        zoom: 78%;
-  
+        width: 100%;
     }
 }

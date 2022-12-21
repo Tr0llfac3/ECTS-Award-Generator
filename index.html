@@ -8,13 +8,26 @@
     <title>ECTS Award Gen</title>
     <script src="script.js" defer></script>
 </head>
-<body>
+<body id="body">
     <div id="border">
         <header id="fileHandlers">
             <div id="HTU" onclick="instructions()" class="header">How To Use</div>
             <div id="import" onclick="importCSV()" class="header">Import CSV File<input type="file" id="fileInput" style="display:none" accept=".csv"></div>
             <div id="export" onclick="exportAward()" class="header">Export Award</div>
-            <div id="fontChange" class="header">Change Font</div>
+            <div id="fontChange" onclick="fontDropdown()" class="header">
+                Change Font
+                <div id="myDropdown" class="dropdown-content">
+                    <div onclick="fontChange(this)" data-font-stack="Bell-MT" class="font">Bell Mt</div>
+                    <div onclick="fontChange(this)" data-font-stack="Agency-FB-Bold" class="font">Agency FB</div>
+                    <div onclick="fontChange(this)" data-font-stack="Corbel" class="font">Corbel</div>
+                    <div onclick="fontChange(this)" data-font-stack="Arial, sans-serif" class="font">Arial</div>
+                    <div onclick="fontChange(this)" data-font-stack="Calibri" class="font">Calibri</div>
+                    <div onclick="fontChange(this)" data-font-stack="Times, Times New Roman, serif" class="font">Times New Roman</div>
+                    <div onclick="fontChange(this)" data-font-stack="Comic Sans MS, Comic Sans, cursive" class="font">Comic Sans</div>
+                    <div onclick="fontChange(this)" data-font-stack="Calisto-MT" class="font">Calisto MT</div>
+                    <div onclick="fontChange(this)" data-font-stack="'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="font">Lucida Sans</div>
+                </div> 
+            </div>
         </header>
         <div style="display: flex;">
             <div id="backgroundTrack">

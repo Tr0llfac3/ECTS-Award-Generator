@@ -62,3 +62,30 @@ if (file) {
 function exportAward(){
     print();
 }
+
+function fontDropdown(){
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+    if (!event.target.matches('#fontChange')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+
+// document.querySelectorAll('.font').forEach(e => {
+//     e.target.addEventListener(function(e) {
+//         console.log(this,dataset.id);
+//     });
+// });
+
+
+function fontChange(elem){
+    document.body.style.fontFamily = elem.dataset.fontStack;
+}

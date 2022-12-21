@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Bell-MT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bell-MT'), url('./fonts/BellMT.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Agency-FB-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agency-FB-Bold'), url('./fonts/AGENCYB.woff') format('woff');
+}
+@font-face {
+    font-family: 'Calibri';
+    font-style:normal;
+    font-weight:normal;
+    src:local('Calibri'), url('./fonts/calibri-regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Corbel';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Corbel'), url('./fonts/CORBELB.TTF') format('ttf');
+}
+@font-face {
+    font-family: 'Calisto-MT';
+    font-size: normal;
+    font-weight: normal;
+    src: local('Calisto-MT'), url('./fonts/CALISTB.TTF') format('ttf');
+}

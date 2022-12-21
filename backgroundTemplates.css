@@ -4,7 +4,6 @@
     background-image: url('./backgrounds/Background01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
     width: 1500px;
     height: 800px;
     position: relative;
@@ -30,27 +29,27 @@
     left: 250px;
 }
 #PreviewContainer.background01  #Award{
-    top: 60px;
+    top: 80px;
     left: 200px;
 }
 #PreviewContainer.background01 #quarter{
-    top: 135px;
+    top: 170px;
     left: 335px;
 }
 #PreviewContainer.background01 #year{
-    top: 135px;
+    top: 170px;
     left: 630px;
 }
 #PreviewContainer.background01 #Granted{
-    top: 250px;
+    top: 270px;
     left: 140px;
 }
 #PreviewContainer.background01 #Name{
-    top: 290px;
+    top: 330px;
     left: 140px;
 }
 #PreviewContainer.background01 #Class{
-    top: 360px;
+    top: 420px;
     left: 140px;
 }
 #PreviewContainer.background01 #hr01{
@@ -82,7 +81,6 @@
     background-image: url('./backgrounds/Background02.png');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
     width: 1500px;
     height: 800px;
     position: relative;

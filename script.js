@@ -40,16 +40,26 @@ document.querySelector('#fileInput').addEventListener('change', function(e) {
     var file = document.getElementById("fileInput").files[0];
 if (file) {
     var reader = new FileReader();
-    reader.readAsText(file, "UTF-8");
+    reader.readAsText(file, "UTF-8"); 
     reader.onload = function (evt) {
         console.log(evt.target.result);
-        let data = evt.target.result.split(",");
-        console.log(data);
-        document.getElementById("Award").innerHTML = data[0];
-        document.getElementById("quarter").innerHTML = 'Quarter ' + data[1];
-        document.getElementById("year").innerHTML = data[2];
-        document.getElementById("Name").innerHTML = data[3];
-        document.getElementById("Class").innerHTML = data[4];
+        let array = evt.target.result.split('\r\n');
+        let cloneSource = document.getElementById("PreviewContainer");
+        array.forEach(element => {
+            let newPreview = cloneSource.cloneNode(true);
+            let data = element.split(",");
+            console.log(array, data);
+            console.log(newPreview);
+            debugger;
+            newPreview.querySelector("#Award").innerHTML = data[0];
+            newPreview.querySelector("#quarter").innerHTML = 'Quarter ' + data[1];
+            newPreview.querySelector("#year").innerHTML = data[2];
+            newPreview.querySelector("#Name").innerHTML = data[3];
+            newPreview.querySelector("#Class").innerHTML = data[4];
+            document.getElementById("OutputWindow").append(newPreview);
+        });
+        
+        
         
     }
     reader.onerror = function (evt) {

@@ -73,6 +73,9 @@ header{
         margin: 0;
         size: 1500px 850px;
     }
+    *{
+        border: none;
+    }
     body{
         align-items: center;
         justify-content: center;
@@ -86,9 +89,22 @@ header{
     #border{
         border: none;
     }
-    #PreviewContainer{
+    .preview{
         padding: 0;
         width: 100%;
         page-break-after: always;
+        break-after: always;
+        border: none;
     }
+}
+#OutputWindow{
+    width: 1506px;
+    clear: both;
+    margin: auto;
+    border: solid black;
+    border-bottom:none ;
+    border-top:none;
+}
+#OutputWindow #PreviewContainer{
+    border-bottom: solid black;
 }

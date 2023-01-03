@@ -38,19 +38,19 @@ function importCSV(){
 
 document.querySelector('#fileInput').addEventListener('change', function(e) {
     var file = document.getElementById("fileInput").files[0];
+    
 if (file) {
     var reader = new FileReader();
     reader.readAsText(file, "UTF-8"); 
     reader.onload = function (evt) {
         console.log(evt.target.result);
         let array = evt.target.result.split('\r\n');
-        let cloneSource = document.getElementById("PreviewContainer");
+        let cloneSource = document.getElementsByClassName("preview")[0];
         array.forEach(element => {
             let newPreview = cloneSource.cloneNode(true);
             let data = element.split(",");
             console.log(array, data);
             console.log(newPreview);
-            debugger;
             newPreview.querySelector("#Award").innerHTML = data[0];
             newPreview.querySelector("#quarter").innerHTML = 'Quarter ' + data[1];
             newPreview.querySelector("#year").innerHTML = data[2];

@@ -46,14 +46,15 @@ if (csv) {
     reader.readAsText(csv, "UTF-8"); 
     reader.onload = function (evt) {
         console.log(evt.target.result);
-        let array = evt.target.result.split('\r\n');
+        let array = evt.target.result.split('\n');
         let cloneSource = document.getElementsByClassName("preview")[0];
         array.shift();
-        array.forEach(element => {
+        array.forEach((element, i) => {
             let newPreview = cloneSource.cloneNode(true);
             let data = element.split(",");
             console.log(array, data);
             console.log(newPreview);
+            if(data[0] == ['']) return; // Buffer for if there is an empty line in CSV file
             newPreview.querySelector("#Award").innerHTML = data[0];
             newPreview.querySelector("#quarter").innerHTML = 'Quarter ' + data[1];
             newPreview.querySelector("#year").innerHTML = data[2];

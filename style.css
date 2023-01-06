@@ -101,10 +101,4 @@ header{
     width: 1506px;
     clear: both;
     margin: auto;
-    border: solid black;
-    border-bottom:none ;
-    border-top:none;
-}
-#OutputWindow #PreviewContainer{
-    border-bottom: solid black;
 }

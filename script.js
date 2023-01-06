@@ -6,6 +6,7 @@ document.querySelectorAll('.template').forEach((e, i) => {
         const background = this.alt;
         // console.log('alt = ' + background);
         document.getElementById('PreviewContainer').className = background;
+        document.getElementById('PreviewContainer').classList.add('preview');
         console.log(background + ' has just been selected');
     })
 });
@@ -37,15 +38,17 @@ function importCSV(){
 }
 
 document.querySelector('#fileInput').addEventListener('change', function(e) {
-    var file = document.getElementById("fileInput").files[0];
+    var csv = document.getElementById("fileInput").files[0];
     
-if (file) {
+    
+if (csv) {
     var reader = new FileReader();
-    reader.readAsText(file, "UTF-8"); 
+    reader.readAsText(csv, "UTF-8"); 
     reader.onload = function (evt) {
         console.log(evt.target.result);
         let array = evt.target.result.split('\r\n');
         let cloneSource = document.getElementsByClassName("preview")[0];
+        array.shift();
         array.forEach(element => {
             let newPreview = cloneSource.cloneNode(true);
             let data = element.split(",");

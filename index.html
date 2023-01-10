@@ -12,6 +12,8 @@
     <div id="border">
         <header id="fileHandlers">
             <div id="HTU" onclick="instructions()" class="header">How To Use</div>
+            <div id="DownloadTemplate" class="header"><a href="AwardTemplate.xlsx" download="AwardTemplate">Download Template</a></div>
+            <div id="ImportSig" class="header">Import Signature<input type="file" id="imageInput" accept="image/png" style="display:none;"></div>
             <div id="import" onclick="importCSV()" class="header">Import CSV File<input type="file" id="fileInput" style="display:none" accept=".csv"></div>
             <div id="export" onclick="exportAward()" class="header">Export Award</div>
             <div id="fontChange" onclick="fontDropdown()" class="header">
@@ -53,8 +55,9 @@
                 <div id="Class" class="color01">Program Name</div>
                 <div id="hr01"></div>
                 <div id="hr02"></div>
-                <div id="instructer" class="color01 small">Instructer</div>
+                <div id="instructer" class="color01 small">Instructor</div>
                 <div id="date" class="color01 small">Date</div>
+                <div id="intructerSig"></div>
             </div>
 
         </div>

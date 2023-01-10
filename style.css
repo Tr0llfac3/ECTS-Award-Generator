@@ -122,3 +122,8 @@ header{
     clear: both;
     margin: auto;
 }
+
+#DownloadTemplate a{
+    text-decoration: none;
+    color: black;
+}

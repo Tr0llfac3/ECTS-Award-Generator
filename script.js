@@ -103,3 +103,18 @@ window.onclick = function(event) {
 function fontChange(elem){
     document.body.style.fontFamily = elem.dataset.fontStack;
 }
+
+const imageInput = document.querySelector('#imageInput');
+var uploadedImage = "";
+imageInput.addEventListener('change', function(){
+    const reader = new FileReader();
+    reader.addEventListener('load', () => {
+        uploadedImage = reader.result;
+        document.querySelector('#intructerSig').style.backgroundImage = `url(${uploadedImage})`;
+    });
+    reader.readAsDataURL(this.files[0]);
+})
+
+document.getElementById('ImportSig').addEventListener('click', function(){
+    imageInput.click();
+})

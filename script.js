@@ -51,6 +51,7 @@ if (csv) {
         array.shift();
         array.forEach((element, i) => {
             let newPreview = cloneSource.cloneNode(true);
+            newPreview.id = '';
             let data = element.split(",");
             console.log(array, data);
             console.log(newPreview);
@@ -118,3 +119,14 @@ imageInput.addEventListener('change', function(){
 document.getElementById('ImportSig').addEventListener('click', function(){
     imageInput.click();
 })
+
+// Get Query String
+const urlParams = new URLSearchParams(location.search); // after the ? key it records everything after that
+
+for(const [key, value] of urlParams) {
+    console.log(`${key}:${value}`); // Shows the stuff after the ?
+    console.log(urlParams.has('jklins')); //Determines if the added query is the right one: jklins
+    if (urlParams.has('jklins')) {
+        document.getElementById('ImportSig').style.visibility = 'visible'; //If the link = ?jklins shows what jklins wants
+    }
+}

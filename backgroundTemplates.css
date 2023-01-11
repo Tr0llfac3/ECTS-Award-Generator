@@ -1,6 +1,6 @@
 /* === Background01 Template === */
 
-#PreviewContainer.background01{
+.background01{
     background-image: url('./backgrounds/Background01.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,76 +9,76 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background01 .color01{
+.background01 .color01{
     color: #A6A6A6;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background01 .color02{
+.background01 .color02{
     color: #54A021;
     font-size: 5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background01  .small{
+.background01  .small{
     font-size: 1em;
 }
-#PreviewContainer.background01  #ECTS{
+.background01  #ECTS{
     top: 15px;
     left: 250px;
 }
-#PreviewContainer.background01  #Award{
+.background01  #Award{
     top: 80px;
     left: 200px;
 }
-#PreviewContainer.background01 #quarter{
+.background01 #quarter{
     top: 170px;
     left: 335px;
 }
-#PreviewContainer.background01 #year{
+.background01 #year{
     top: 170px;
     left: 630px;
 }
-#PreviewContainer.background01 #Granted{
+.background01 #Granted{
     top: 270px;
     left: 140px;
 }
-#PreviewContainer.background01 #Name{
+.background01 #Name{
     top: 330px;
     left: 140px;
 }
-#PreviewContainer.background01 #Class{
+.background01 #Class{
     top: 420px;
     left: 140px;
 }
-#PreviewContainer.background01 #hr01{
+.background01 #hr01{
     position: absolute;
     width: 300px;
     border-top: #a6a6a682 solid;
     top: 650px;
     left: 150px;
 }
-#PreviewContainer.background01 #hr02{
+.background01 #hr02{
     position: absolute;
     width: 300px;
     border-top: #a6a6a682 solid;
     top: 650px;
     left: 600px;
 }
-#PreviewContainer.background01 #instructer{
+.background01 #instructer{
     top: 660px;
     left: 150px;
 }
-#PreviewContainer.background01 #date{
+.background01 #date{
     top: 660px;
     left: 600px;
 }
-#PreviewContainer.background01 #intructerSig{
+.background01 #intructerSig{
     position: absolute;
     top: 600px;
     left: 150px;
-    height: 50px;
+    height: 70px;
     width: 300px;
     background-position: center;
     background-size: contain;
@@ -87,7 +87,7 @@
 
 /* === Background02 Template === */
 
-#PreviewContainer.background02{
+.background02{
     background-image: url('./backgrounds/Background02.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,77 +96,87 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background02 .color01{
+.background02 .color01{
     color: #000000;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background02 .color02{
+.background02 .color02{
     color: #BC1C1C;
     font-size: 5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background02  .small{
+.background02  .small{
     font-size: 1em;
 }
-#PreviewContainer.background02  #ECTS{
+.background02  #ECTS{
     top: 30px;
     left: 600px;
 }
-#PreviewContainer.background02  #Award{
+.background02  #Award{
     top: 90px;
     left: 530px;
 }
-#PreviewContainer.background02 #quarter{
+.background02 #quarter{
     top: 175px;
     left: 700px;
 }
-#PreviewContainer.background02 #year{
+.background02 #year{
     top: 175px;
     left: 1000px;
 }
-#PreviewContainer.background02 #Granted{
+.background02 #Granted{
     top: 270px;
     left: 530px;
     font-size: 2em;
 }
-#PreviewContainer.background02 #Name{
+.background02 #Name{
     top: 320px;
     left: 530px;
 }
-#PreviewContainer.background02 #Class{
+.background02 #Class{
     top: 420px;
     left: 530px;
     font-size: 2em;
 }
-#PreviewContainer.background02 #hr01{
+.background02 #hr01{
     position: absolute;
     width: 300px;
     border-top: #00000082 solid;
     top: 650px;
     left: 700px;
 }
-#PreviewContainer.background02 #hr02{
+.background02 #hr02{
     position: absolute;
     width: 300px;
     border-top: #00000082 solid;
     top: 650px;
     left: 1150px;
 }
-#PreviewContainer.background02 #instructer{
+.background02 #instructer{
     top: 660px;
     left: 700px;
 }
-#PreviewContainer.background02 #date{
+.background02 #date{
     top: 660px;
     left: 1150px;
+}
+.background02 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* === background03 Template === */
 
-#PreviewContainer.background03{
+.background03{
     background-image: url('./backgrounds/background03.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,79 +185,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background03 .color01{
+.background03 .color01{
     color: #2E5369;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background03 .color02{
+.background03 .color02{
     color: #353535;
     font-size: 5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background03  .small{
+.background03  .small{
     font-size: 1em;
 }
-#PreviewContainer.background03  #ECTS{
+.background03  #ECTS{
     top: 30px;
     left: 400px;
 }
-#PreviewContainer.background03  #Award{
+.background03  #Award{
     top: 90px;
     left: 330px;
 }
-#PreviewContainer.background03 #quarter{
+.background03 #quarter{
     top: 175px;
     left: 450px;
 }
-#PreviewContainer.background03 #year{
+.background03 #year{
     top: 175px;
     left: 800px;
 }
-#PreviewContainer.background03 #Granted{
+.background03 #Granted{
     top: 275px;
     left: 375px;
     font-size: 2em;
 }
-#PreviewContainer.background03 #Name{
+.background03 #Name{
     top: 320px;
     left: 375px;
 }
-#PreviewContainer.background03 #Class{
+.background03 #Class{
     top: 420px;
     left: 375px;
     font-size: 2em;
 }
-#PreviewContainer.background03 #hr01{
+.background03 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 300px;
 }
-#PreviewContainer.background03 #hr02{
+.background03 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 900px;
 }
-#PreviewContainer.background03 #instructer{
+.background03 #instructer{
     top: 660px;
     left: 300px;
     color: #98adb5;
 }
-#PreviewContainer.background03 #date{
+.background03 #date{
     top: 660px;
     left: 900px;
     color: #98adb5;
+}
+.background03 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background04 Template */
 
-#PreviewContainer.background04{
+.background04{
     background-image: url('./backgrounds/background04.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,79 +276,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background04 .color01{
+.background04 .color01{
     color: #637183;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background04 .color02{
+.background04 .color02{
     color: #145ecd;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background04  .small{
+.background04  .small{
     font-size: 1em;
 }
-#PreviewContainer.background04  #ECTS{  
+.background04  #ECTS{  
     top: 100px;
     left: 280px;
 }
-#PreviewContainer.background04  #Award{
+.background04  #Award{
     top: 160px;
     left: 175px;
 }
-#PreviewContainer.background04 #quarter{
+.background04 #quarter{
     top: 250px;
     left: 280px;
 }
-#PreviewContainer.background04 #year{
+.background04 #year{
     top: 250px;
     left: 680px;
 }
-#PreviewContainer.background04 #Granted{
+.background04 #Granted{
     top: 360px;
     left: 130px;
     font-size: 2em;
 }
-#PreviewContainer.background04 #Name{
+.background04 #Name{
     top: 400px;
     left: 130px;
 }
-#PreviewContainer.background04 #Class{
+.background04 #Class{
     top: 500px;
     left: 130px;
     font-size: 2em;
 }
-#PreviewContainer.background04 #hr01{
+.background04 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
-    top: 650px;
+    top: 680px;
     left: 300px;
 }
-#PreviewContainer.background04 #hr02{
+.background04 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
-    top: 650px;
+    top: 680px;
     left: 900px;
 }
-#PreviewContainer.background04 #instructer{
-    top: 660px;
+.background04 #instructer{
+    top: 690px;
     left: 300px;
     color: #98adb5;
 }
-#PreviewContainer.background04 #date{
-    top: 660px;
+.background04 #date{
+    top: 690px;
     left: 900px;
     color: #98adb5;
+}
+.background04 #intructerSig{
+    position: absolute;
+    top: 630px;
+    left: 300px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Backround05 Template */
 
-#PreviewContainer.background05{
+.background05{
     background-image: url('./backgrounds/background05.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -337,79 +367,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background05 .color01{
+.background05 .color01{
     color: #637183;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background05 .color02{
+.background05 .color02{
     color: #145ecd;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background05  .small{
+.background05  .small{
     font-size: 1em;
 }
-#PreviewContainer.background05  #ECTS{  
+.background05  #ECTS{  
     top: 100px;
     left: 300px;
 }
-#PreviewContainer.background05  #Award{
+.background05  #Award{
     top: 160px;
     left: 205px;
 }
-#PreviewContainer.background05 #quarter{
+.background05 #quarter{
     top: 250px;
     left: 310px;
 }
-#PreviewContainer.background05 #year{
+.background05 #year{
     top: 250px;
     left: 710px;
 }
-#PreviewContainer.background05 #Granted{
+.background05 #Granted{
     top: 360px;
     left: 170px;
     font-size: 2em;
 }
-#PreviewContainer.background05 #Name{
+.background05 #Name{
     top: 400px;
     left: 170px;
 }
-#PreviewContainer.background05 #Class{
+.background05 #Class{
     top: 500px;
     left: 170px;
     font-size: 2em;
 }
-#PreviewContainer.background05 #hr01{
+.background05 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 300px;
 }
-#PreviewContainer.background05 #hr02{
+.background05 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 900px;
 }
-#PreviewContainer.background05 #instructer{
+.background05 #instructer{
     top: 660px;
     left: 300px;
     color: #98adb5;
 }
-#PreviewContainer.background05 #date{
+.background05 #date{
     top: 660px;
     left: 900px;
     color: #98adb5;
+}
+.background05 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background06 Template */
 
-#PreviewContainer.background06{
+.background06{
     background-image: url('./backgrounds/background06.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -418,79 +458,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background06 .color01{
+.background06 .color01{
     color: #637183;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background06 .color02{
+.background06 .color02{
     color: #145ecd;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background06  .small{
+.background06  .small{
     font-size: 1em;
 }
-#PreviewContainer.background06  #ECTS{  
+.background06  #ECTS{  
     top: 100px;
     left: 175px;
 }
-#PreviewContainer.background06  #Award{
+.background06  #Award{
     top: 160px;
     left: 100px;
 }
-#PreviewContainer.background06 #quarter{
+.background06 #quarter{
     top: 250px;
     left: 205px;
 }
-#PreviewContainer.background06 #year{
+.background06 #year{
     top: 250px;
     left: 620px;
 }
-#PreviewContainer.background06 #Granted{
+.background06 #Granted{
     top: 360px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background06 #Name{
+.background06 #Name{
     top: 400px;
     left: 100px;
 }
-#PreviewContainer.background06 #Class{
+.background06 #Class{
     top: 500px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background06 #hr01{
+.background06 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 100px;
 }
-#PreviewContainer.background06 #hr02{
+.background06 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 595px;
 }
-#PreviewContainer.background06 #instructer{
+.background06 #instructer{
     top: 660px;
     left: 100px;
     color: #98adb5;
 }
-#PreviewContainer.background06 #date{
+.background06 #date{
     top: 660px;
     left: 595px;
     color: #98adb5;
+}
+.background06 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background07 Template */
 
-#PreviewContainer.background07{
+.background07{
     background-image: url('./backgrounds/background07.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -499,79 +549,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background07 .color01{
+.background07 .color01{
     color: #90a0b5;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background07 .color02{
+.background07 .color02{
     color: #3271d0;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background07  .small{
+.background07  .small{
     font-size: 1em;
 }
-#PreviewContainer.background07  #ECTS{  
+.background07  #ECTS{  
     top: 100px;
     left: 175px;
 }
-#PreviewContainer.background07  #Award{
+.background07  #Award{
     top: 160px;
     left: 100px;
 }
-#PreviewContainer.background07 #quarter{
+.background07 #quarter{
     top: 250px;
     left: 205px;
 }
-#PreviewContainer.background07 #year{
+.background07 #year{
     top: 250px;
     left: 620px;
 }
-#PreviewContainer.background07 #Granted{
+.background07 #Granted{
     top: 360px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background07 #Name{
+.background07 #Name{
     top: 400px;
     left: 100px;
 }
-#PreviewContainer.background07 #Class{
+.background07 #Class{
     top: 500px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background07 #hr01{
+.background07 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 100px;
 }
-#PreviewContainer.background07 #hr02{
+.background07 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 595px;
 }
-#PreviewContainer.background07 #instructer{
+.background07 #instructer{
     top: 660px;
     left: 100px;
     color: #98adb5;
 }
-#PreviewContainer.background07 #date{
+.background07 #date{
     top: 660px;
     left: 595px;
     color: #98adb5;
+}
+.background07 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background08 Template */
 
-#PreviewContainer.background08{
+.background08{
     background-image: url('./backgrounds/background08.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -580,79 +640,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background08 .color01{
+.background08 .color01{
     color: #90a0b5;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background08 .color02{
+.background08 .color02{
     color: #3271d0;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background08  .small{
+.background08  .small{
     font-size: 1em;
 }
-#PreviewContainer.background08  #ECTS{  
+.background08  #ECTS{  
     top: 100px;
     left: 575px;
 }
-#PreviewContainer.background08  #Award{
+.background08  #Award{
     top: 160px;
     left: 500px;
 }
-#PreviewContainer.background08 #quarter{
+.background08 #quarter{
     top: 250px;
     left: 600px;
 }
-#PreviewContainer.background08 #year{
+.background08 #year{
     top: 250px;
     left: 1000px;
 }
-#PreviewContainer.background08 #Granted{
+.background08 #Granted{
     top: 360px;
     left: 500px;
     font-size: 2em;
 }
-#PreviewContainer.background08 #Name{
+.background08 #Name{
     top: 400px;
     left: 500px;
 }
-#PreviewContainer.background08 #Class{
+.background08 #Class{
     top: 500px;
     left: 500px;
     font-size: 2em;
 }
-#PreviewContainer.background08 #hr01{
+.background08 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 500px;
 }
-#PreviewContainer.background08 #hr02{
+.background08 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 1000px;
 }
-#PreviewContainer.background08 #instructer{
+.background08 #instructer{
     top: 660px;
     left: 500px;
     color: #98adb5;
 }
-#PreviewContainer.background08 #date{
+.background08 #date{
     top: 660px;
     left: 1000px;
     color: #98adb5;
+}
+.background08 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background09 Template */
 
-#PreviewContainer.background09{
+.background09{
     background-image: url('./backgrounds/background09.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -661,79 +731,89 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background09 .color01{
+.background09 .color01{
     color: #90a0b5;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background09 .color02{
+.background09 .color02{
     color: #3271d0;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background09  .small{
+.background09  .small{
     font-size: 1em;
 }
-#PreviewContainer.background09  #ECTS{  
+.background09  #ECTS{  
     top: 100px;
     left: 225px;
 }
-#PreviewContainer.background09  #Award{
+.background09  #Award{
     top: 160px;
     left: 150px;
 }
-#PreviewContainer.background09 #quarter{
+.background09 #quarter{
     top: 250px;
     left: 225px;
 }
-#PreviewContainer.background09 #year{
+.background09 #year{
     top: 250px;
     left: 670px;
 }
-#PreviewContainer.background09 #Granted{
+.background09 #Granted{
     top: 360px;
     left: 150px;
     font-size: 2em;
 }
-#PreviewContainer.background09 #Name{
+.background09 #Name{
     top: 400px;
     left: 150px;
 }
-#PreviewContainer.background09 #Class{
+.background09 #Class{
     top: 500px;
     left: 150px;
     font-size: 2em;
 }
-#PreviewContainer.background09 #hr01{
+.background09 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 150px;
 }
-#PreviewContainer.background09 #hr02{
+.background09 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 625px;
 }
-#PreviewContainer.background09 #instructer{
+.background09 #instructer{
     top: 660px;
     left: 150px;
     color: #98adb5;
 }
-#PreviewContainer.background09 #date{
+.background09 #date{
     top: 660px;
     left: 625px;
     color: #98adb5;
+}
+.background09 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Background10 Template */
 
-#PreviewContainer.background10{
+.background10{
     background-image: url('./backgrounds/background10.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -742,72 +822,82 @@
     position: relative;
     display: flex;
 }
-#PreviewContainer.background10 .color01{
+.background10 .color01{
     color: #90a0b5;
     font-size: 3.5em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background10 .color02{
+.background10 .color02{
     color: #3271d0;
     font-size: 4.8em;
     position: absolute;
     bottom: 0;
 }
-#PreviewContainer.background10  .small{
+.background10  .small{
     font-size: 1em;
 }
-#PreviewContainer.background10  #ECTS{  
+.background10  #ECTS{  
     top: 100px;
     left: 175px;
 }
-#PreviewContainer.background10  #Award{
+.background10  #Award{
     top: 160px;
     left: 100px;
 }
-#PreviewContainer.background10 #quarter{
+.background10 #quarter{
     top: 250px;
     left: 205px;
 }
-#PreviewContainer.background10 #year{
+.background10 #year{
     top: 250px;
     left: 620px;
 }
-#PreviewContainer.background10 #Granted{
+.background10 #Granted{
     top: 360px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background10 #Name{
+.background10 #Name{
     top: 400px;
     left: 100px;
 }
-#PreviewContainer.background10 #Class{
+.background10 #Class{
     top: 500px;
     left: 100px;
     font-size: 2em;
 }
-#PreviewContainer.background10 #hr01{
+.background10 #hr01{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 100px;
 }
-#PreviewContainer.background10 #hr02{
+.background10 #hr02{
     position: absolute;
     width: 300px;
     border-top: #b0c1cb solid;
     top: 650px;
     left: 595px;
 }
-#PreviewContainer.background10 #instructer{
+.background10 #instructer{
     top: 660px;
     left: 100px;
     color: #98adb5;
 }
-#PreviewContainer.background10 #date{
+.background10 #date{
     top: 660px;
     left: 595px;
     color: #98adb5;
+}
+.background10 #intructerSig{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    height: 70px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }

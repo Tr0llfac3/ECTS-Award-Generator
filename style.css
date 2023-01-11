@@ -109,6 +109,9 @@ header{
     #border{
         border: none;
     }
+    #PreviewContainer{
+        display: none;
+    }
     .preview{
         padding: 0;
         width: 100%;
@@ -126,4 +129,7 @@ header{
 #DownloadTemplate a{
     text-decoration: none;
     color: black;
+}
+#ImportSig{
+    visibility:hidden;
 }

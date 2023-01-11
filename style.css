@@ -30,6 +30,12 @@ header{
     padding: 1px 4px 0 3.8px;
     cursor: pointer;
 }
+#fontSlider{
+    border:none;
+}
+#slider{
+    cursor: pointer;
+}
 
 /* === Track Styles === */
 

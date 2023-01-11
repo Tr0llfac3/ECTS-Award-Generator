@@ -59,8 +59,8 @@ if (csv) {
             newPreview.querySelector("#Award").innerHTML = data[0];
             newPreview.querySelector("#quarter").innerHTML = 'Quarter ' + data[1];
             newPreview.querySelector("#year").innerHTML = data[2];
-            newPreview.querySelector("#Name").innerHTML = data[3];
-            newPreview.querySelector("#Class").innerHTML = data[4];
+            newPreview.querySelector("#Name").innerHTML = data[3] + " " + data[4];
+            newPreview.querySelector("#Class").innerHTML = data[5];
             document.getElementById("OutputWindow").append(newPreview);
         });
         
@@ -93,13 +93,6 @@ window.onclick = function(event) {
       }
     }
   }
-
-// document.querySelectorAll('.font').forEach(e => {
-//     e.target.addEventListener(function(e) {
-//         console.log(this,dataset.id);
-//     });
-// });
-
 
 function fontChange(elem){
     document.body.style.fontFamily = elem.dataset.fontStack;

@@ -35,6 +35,7 @@ header{
 }
 #slider{
     cursor: pointer;
+    padding-left: 10px;
 }
 
 /* === Track Styles === */

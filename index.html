@@ -29,8 +29,10 @@
                     <div onclick="fontChange(this)" data-font-stack="'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="font">Lucida Sans</div>
                 </div> 
             </div>
-            <div id="fontSlider" class="header">Font Size</div><input id="slider" type="range" min="1" max="100" value="50">
+            <div id="fontSlider" class="header">Font Size: <span id="valueOutput">1.0</span></div>
+            <input id="slider" type="range" min="0.5" max="3.0" step=".1" value="1.0"title='1.0'>            
             <div class="header"></div>
+            
             <div id="ImportSig" class="header">Import Signature<input type="file" id="imageInput" accept="image/png" style="display:none;"></div>
         </header>
         <div style="display: flex;">

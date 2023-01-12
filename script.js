@@ -123,3 +123,18 @@ for(const [key, value] of urlParams) {
         document.getElementById('ImportSig').style.visibility = 'visible'; //If the link = ?jklins shows what jklins wants
     }
 }
+
+// Slider Functionality
+
+var slider = document.getElementById("slider");
+var output =document.getElementById('valueOutput');
+
+// Updates the slider value every time you drag the handle
+slider.oninput = function() {
+    let valueSlider = Number(this.value);
+    console.log(valueSlider);
+    this.title = valueSlider;
+    output.innerHTML = valueSlider.toFixed(1);
+    document.querySelector('#PreviewContainer').style.fontSize = valueSlider + 'em';
+
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.ects.org/wp-content/uploads/2019/07/cropped-favicon-32x32.png">
     <title>ECTS Award Gen</title>
     <script src="script.js" defer></script>
 </head>
@@ -32,9 +33,9 @@
             <div id="fontSlider" class="header">Font Size: <span id="valueOutput">1.0</span></div>
             <input id="slider" type="range" min="0.5" max="3.0" step=".1" value="1.0"title='1.0'>            
             <div class="header"></div>
-            
             <div id="ImportSig" class="header">Import Signature<input type="file" id="imageInput" accept="image/png" style="display:none;"></div>
         </header>
+        
         <div style="display: flex;">
             <div id="backgroundTrack">
                 <img class="template" src="./backgrounds/Background01.png" alt="background01" draggable="false">
@@ -59,6 +60,7 @@
                 <div id="Class" class="color01">Program Name</div>
                 <div id="hr01"></div>
                 <div id="hr02"></div>
+                <div id="currentDate"><span id="getDate" class="color01"></span></div>
                 <div id="instructer" class="color01 small">Instructor</div>
                 <div id="date" class="color01 small">Date</div>
                 <div id="intructerSig"></div>

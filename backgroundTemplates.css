@@ -84,6 +84,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.background01 #getDate{
+    top:605px;
+    left: 630px;
+    font-size: 3em;
+}
 
 /* === Background02 Template === */
 
@@ -172,6 +177,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.background02 #getDate{
+    top:605px;
+    left: 1180px;
+    font-size: 3em;
 }
 
 /* === background03 Template === */

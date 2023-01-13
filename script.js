@@ -132,9 +132,10 @@ var output =document.getElementById('valueOutput');
 // Updates the slider value every time you drag the handle
 slider.oninput = function() {
     let valueSlider = Number(this.value);
-    console.log(valueSlider);
     this.title = valueSlider;
     output.innerHTML = valueSlider.toFixed(1);
     document.querySelector('#PreviewContainer').style.fontSize = valueSlider + 'em';
-
 }
+const d = new Date();
+const date = d.getMonth()+1 + "/" + d.getDate() + "/" + d.getFullYear();
+document.getElementById('getDate').innerHTML = date;

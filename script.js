@@ -26,11 +26,6 @@ document.querySelectorAll('.template').forEach((e, i) => {
 //         document.getElementById("Class").innerHTML = data[4];
 //     });
 
-// Brings User to the How to Use Page
-function instructions(){
-    alert('HTU btn Clicked');
-}
-
 // Used to import a CSV File
 function importCSV(){
     //alert('Import Btn CLicked');

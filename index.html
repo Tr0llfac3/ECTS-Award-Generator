@@ -14,7 +14,7 @@
 <body id="body">
     <div id="border">
         <header id="fileHandlers">
-            <div id="HTU" onclick="instructions()" class="header">How To Use</div>
+            <div id="HTU" onclick="window.open('How To Use The ECTS Award Generator.pdf', '_blank', 'fullscreen=yes'); return false;" class='header'>How To Use</div>
             <div id="DownloadTemplate" class="header"><a href="AwardTemplate.xlsx" download="AwardTemplate">Download Template</a></div>
             <div id="import" onclick="importCSV()" class="header">Import CSV File<input type="file" id="fileInput" style="display:none" accept=".csv"></div>
             <div id="export" onclick="exportAward()" class="header">Export Award</div>

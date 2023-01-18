@@ -274,6 +274,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.background03 #getDate{
+    top:605px;
+    left: 950px;
+    font-size: 3em;
+}
 
 /* Background04 Template */
 
@@ -365,7 +370,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+.background04 #getDate{
+    top:635px;
+    left: 950px;
+    font-size: 3em;
+}
 /* Backround05 Template */
 
 .background05{
@@ -455,6 +464,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.background05 #getDate{
+    top:605px;
+    left: 950px;
+    font-size: 3em;
 }
 
 /* Background06 Template */
@@ -547,6 +561,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.background06 #getDate{
+    top:605px;
+    left: 650px;
+    font-size: 3em;
+}
 
 /* Background07 Template */
 
@@ -637,6 +656,11 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.background07 #getDate{
+    top:605px;
+    left: 650px;
+    font-size: 3em;
 }
 
 /* Background08 Template */
@@ -729,6 +753,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.background08 #getDate{
+    top:605px;
+    left: 1050px;
+    font-size: 3em;
+}
 
 /* Background09 Template */
 
@@ -820,6 +849,11 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.background09 #getDate{
+    top:605px;
+    left: 675px;
+    font-size: 3em;
+}
 
 /* Background10 Template */
 
@@ -910,4 +944,9 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.background10 #getDate{
+    top:605px;
+    left: 645px;
+    font-size: 3em;
 }

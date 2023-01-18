@@ -139,3 +139,7 @@ slider.oninput = function() {
 const d = new Date();
 const date = d.getMonth()+1 + "/" + d.getDate() + "/" + d.getFullYear();
 document.getElementById('getDate').innerHTML = date;
+
+$(function(){
+    $('#intructerSig').draggable();
+});

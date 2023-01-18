@@ -140,3 +140,6 @@ header{
 #ImportSig{
     visibility:hidden;
 }
+#intructerSig{
+    cursor: grab;
+}

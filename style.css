@@ -143,3 +143,13 @@ header{
 #intructerSig{
     cursor: grab;
 }
+#PreviewContainer > div{
+    height: fit-content;
+    width: fit-content;
+    cursor: grab;
+}
+#PreviewContainer > div:active{
+    height: fit-content;
+    width: fit-content;
+    cursor: grabbing;
+}

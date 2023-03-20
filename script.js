@@ -136,5 +136,6 @@ const date = d.getMonth()+1 + "/" + d.getDate() + "/" + d.getFullYear();
 document.getElementById('getDate').innerHTML = date;
 
 $(function(){
-    $('#intructerSig').draggable();
+   // $('#intructerSig').draggable();
+    $('#PreviewContainer > div').draggable();
 });
